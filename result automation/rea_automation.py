@@ -2,6 +2,11 @@ import re
 from bs4 import BeautifulSoup
 import requests
 import json
+import httplib2
+import urllib.request
+
+
+url='https://jntuaresults.ac.in/'
 
 try:
     src = requests.get('https://jntuaresults.ac.in/').text
@@ -35,7 +40,6 @@ def lastResult():
 
 def isResult():
     pattern = '^B.Tech.*'
-    # pattern = '^Pharm.D.*'
     test_string = lastResult()
     result = re.match(pattern, test_string)
     print(lastResult())
@@ -55,26 +59,25 @@ def listOfBtechResultTitlesInJsonFormat():
             # rows.append(row.text)
     return rows
 
-def listOfResultTitlesb():
-    rows = list()
-    b = []
-    for row in table.findAll("a"):
-        if 'B.Tech II Year I Semester (R15)' in row.text:
-            print(row)
-            
+
+def getRes_a():
+    geturl=""
+    for row in soup.findAll("a",href=True):
+        if "B.Tech II Year I Semester (R15) Regular & Supplementary Examinations, Nov/Dec 2019" in row.text:
+            geturl=url+row['href']
+
+
+    return geturl
 
 
 # B.Tech III Year I Semester (R15) Regular & Supplementary Examinations, Nov/Dec 2019
 
-# print(json.dumps(listOfResultTitles()))
 
 # lastResult()
 
 # print(isResult())
 
 # print(listOfBtechResultTitles())
-
-print(listOfResultTitlesb())
 
 # print(listOfBtechResultTitlesInJsonFormat())
 
