@@ -12,9 +12,9 @@ def main(name):
     click.echo(name)
     click.echo(name)
     
-
+# foldername = name
 def local(name):
-    foldername = name
+    global foldername
     path = os.environ.get('mp')
     _dir = path + '/' + foldername
 
