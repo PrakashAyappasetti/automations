@@ -1,10 +1,10 @@
 import os
 import shutil
 
-folder_to_track = 'C:\\Users\\wikyprash\\Desktop\\'
+UserProfile = os.environ.get('USERPROFILE')
+folder_to_track = f"{UserProfile}\\Desktop"
 
 os.chdir(folder_to_track)
-UserProfile = os.environ.get('USERPROFILE')
 
 extensions_folders = {
     # No name
