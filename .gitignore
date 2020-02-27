@@ -3,3 +3,6 @@
 .vscode/settings.json
 /*/build/*
 /*/dist/*
+/*/*/build/*
+/*/*/dist/*
+create project/flutter projectInitializer/flutterproject.spec
