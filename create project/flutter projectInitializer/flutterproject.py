@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     p = argparse.ArgumentParser()
     p.add_argument('name', help='name of the project')
-    p.add_argument('-f', default='r', help='name of the project')
+    p.add_argument('-f', default='l', help='name of the project')
     args = p.parse_args()
 
     foldername = args.name
