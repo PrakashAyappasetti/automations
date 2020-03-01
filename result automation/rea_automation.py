@@ -5,15 +5,14 @@ import json
 import httplib2
 import urllib.request
 
-
-url='https://jntuaresults.ac.in/'
+url = 'https://jntuaresults.ac.in/'
 
 try:
     src = requests.get('https://jntuaresults.ac.in/').text
 except:
     print('no internet')
     exit()
-    
+
 soup = BeautifulSoup(src, 'lxml')
 
 table = soup.find('table', {'class': 'ui table segment'})
@@ -25,6 +24,7 @@ def listOfResultTitles():
         rows.append(row.text)
     return rows
 
+
 def listOfBtechResultTitles():
     rows = list()
     pattern = '^B.Tech.*'
@@ -32,6 +32,7 @@ def listOfBtechResultTitles():
         if re.match(pattern, row.text):
             rows.append(row.text)
     return rows
+
 
 def lastResult():
     aa = table.find("a").text
@@ -48,30 +49,36 @@ def isResult():
     else:
         return False
 
-def listOfBtechResultTitlesInJsonFormat():
 
+def listOfBtechResultTitlesInJsonFormat():
     rows = {}
     pattern = '^B.Tech.*'
     c = 1
     for row in table.findAll("a"):
         if re.match(pattern, row.text):
-            rows.update({c : row.text})
+            rows.update({c: row.text})
             # rows.append(row.text)
     return rows
 
 
+
 def getRes_a():
-    geturl=""
-    for row in soup.findAll("a",href=True):
-        if "B.Tech II Year I Semester (R15) Regular & Supplementary Examinations, Nov/Dec 2019" in row.text:
-            geturl=url+row['href']
-
-
-    return geturl
-
+    # geturl = ""
+    for row in soup.findAll("a", href=True):
+        if "B.Tech" in row.text:
+        	# print(row.text)
+            h = row['href']
+            geturl = f'{url}{h}'
+            print(f'{row.text} : {geturl}')
+    # return geturl
 
 # B.Tech III Year I Semester (R15) Regular & Supplementary Examinations, Nov/Dec 2019
+# pr1 = ['B.Tech', 'II Year I Semester (R15)', 'Regular & Supplementary Examinations', 'Nov/Dec 2019']
+# pr = 'B.Tech'
+# reg = '(R15)'
 
+
+print(getRes_a())
 
 # lastResult()
 
@@ -80,4 +87,3 @@ def getRes_a():
 # print(listOfBtechResultTitles())
 
 # print(listOfBtechResultTitlesInJsonFormat())
-
