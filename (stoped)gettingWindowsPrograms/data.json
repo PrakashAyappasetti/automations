@@ -1,0 +1,452 @@
+[
+    {
+        "software": [
+            "name: draw.io 12.6.5",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: 7-zip 19.00 (x64)",
+            "location: C:\\Program Files\\7-Zip"
+        ]
+    },
+    {
+        "software": [
+            "name: android studio",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: ccleaner",
+            "location: C:\\Program Files\\CCleaner"
+        ]
+    },
+    {
+        "software": [
+            "name: git version 2.25.1",
+            "location: C:\\Program Files\\Git"
+        ]
+    },
+    {
+        "software": [
+            "name: mediatek driver packages version 5.14.53.00",
+            "location: C:\\Program Files\\MediaTek\\SP Driver"
+        ]
+    },
+    {
+        "software": [
+            "name: mozilla maintenance service",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft office professional plus 2019 - en-us",
+            "location: C:\\Program Files\\Microsoft Office"
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft office professional plus 2019 - en-us.proof",
+            "location: C:\\Program Files\\Microsoft Office"
+        ]
+    },
+    {
+        "software": [
+            "name: sublime text 3",
+            "location: C:\\Program Files\\Sublime Text 3"
+        ]
+    },
+    {
+        "software": [
+            "name: synaptics pointing device driver",
+            "location: %ProgramFiles%\\Synaptics\\SynTP"
+        ]
+    },
+    {
+        "software": [
+            "name: unity hub 2.1.3",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: unlocker 1.9.2",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: vcxsrv",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: winrar 5.60 (64-bit)",
+            "location: C:\\Program Files\\WinRAR"
+        ]
+    },
+    {
+        "software": [
+            "name: minitool partition wizard 11",
+            "location: C:\\Program Files\\MiniTool Partition Wizard 11"
+        ]
+    },
+    {
+        "software": [
+            "name: java(tm) se development kit 12.0.1 (64-bit)",
+            "location: C:\\Program Files\\Java\\jdk-12.0.1"
+        ]
+    },
+    {
+        "software": [
+            "name: intel(r) management engine components",
+            "location: C:\\Program Files\\Intel\\Intel(R) Management Engine Components"
+        ]
+    },
+    {
+        "software": [
+            "name: java 8 update 231 (64-bit)",
+            "location: C:\\Program Files\\Java\\jre1.8.0_231"
+        ]
+    },
+    {
+        "software": [
+            "name: node.js",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: farmville two",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2008 redistributable - x64 9.0.30729.6161",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: java se development kit 8 update 211 (64-bit)",
+            "location: C:\\Program Files\\Java\\jdk1.8.0_211"
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual studio installer",
+            "location: \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\""
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2008 redistributable - x64 9.0.30729.17",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: hex workshop v6.8",
+            "location: C:\\Program Files\\BreakPoint Software\\Hex Workshop v6.8"
+        ]
+    },
+    {
+        "software": [
+            "name: intel(r) computing improvement program",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2010  x64 redistributable - 10.0.30319",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: visual studio build tools 2019",
+            "location: C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools"
+        ]
+    },
+    {
+        "software": [
+            "name: dev-c++",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: filezilla client 3.46.3",
+            "location: C:\\Program Files\\FileZilla FTP Client"
+        ]
+    },
+    {
+        "software": [
+            "name: google chrome",
+            "location: C:\\Program Files (x86)\\Google\\Chrome\\Application"
+        ]
+    },
+    {
+        "software": [
+            "name: heroku",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: intellij idea community edition 2019.1.3",
+            "location: C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.1.3"
+        ]
+    },
+    {
+        "software": [
+            "name: internet download manager",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft directx sdk (june 2010)",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft edge",
+            "location: C:\\Program Files (x86)\\Microsoft\\Edge\\Application"
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft edge update",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: mozilla firefox 72.0.2 (x86 en-us)",
+            "location: C:\\Program Files (x86)\\Mozilla Firefox"
+        ]
+    },
+    {
+        "software": [
+            "name: notepad++ (32-bit x86)",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: npcap",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: picasa 3",
+            "location: \"C:\\Program Files (x86)\\Google\\Picasa3\""
+        ]
+    },
+    {
+        "software": [
+            "name: shadow of mordor - hd textures",
+            "location: D:\\Games\\Middle-Earth - Shadow of Mordor"
+        ]
+    },
+    {
+        "software": [
+            "name: unity",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: vlc media player",
+            "location: C:\\Program Files (x86)\\VideoLAN\\VLC"
+        ]
+    },
+    {
+        "software": [
+            "name: wireshark 3.2.2 64-bit",
+            "location: C:\\Program Files\\Wireshark"
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2013 redistributable (x64) - 12.0.30501",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: windows software development kit - windows 10.0.18362.1",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2010  x86 redistributable - 10.0.30319",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2015-2019 redistributable (x64) - 14.24.28127",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2012 redistributable (x86) - 11.0.61030",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: miflashpro version 4.3.1220.29",
+            "location: C:\\Program Files (x86)\\MiFlashPro"
+        ]
+    },
+    {
+        "software": [
+            "name: mini adb & fastboot version 1.1.5",
+            "location: C:\\Program Files (x86)\\Mini ADB and Fastboot"
+        ]
+    },
+    {
+        "software": [
+            "name: python launcher",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: yarn",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2013 redistributable (x86) - 12.0.40660",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: intel(r) dynamic platform and thermal framework",
+            "location: C:\\Program Files (x86)\\Intel\\Intel(R) Dynamic Platform and Thermal Framework"
+        ]
+    },
+    {
+        "software": [
+            "name: intel(r) update manager",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft .net framework 4.8 sdk",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2008 redistributable - x86 9.0.30729.17",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2008 redistributable - x86 9.0.30729.6161",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft .net framework 4.8 targeting pack (enu)",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: clickonce bootstrapper package for microsoft .net framework 4.8 on visual studio 2017",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft .net framework 4.8 targeting pack",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2012 redistributable (x64) - 11.0.61030",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: qualcomm usb drivers for windows",
+            "location: C:\\Program Files (x86)\\QUALCOMM Incorporated\\Qualcomm USB Drivers For Windows"
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2015-2019 redistributable (x86) - 14.24.28127",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: intel\u00ae driver & support assistant",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: windows sdk addon",
+            "location: "
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2013 redistributable (x64) - 12.0.40660",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: intel(r) processor graphics",
+            "location: C:\\Program Files (x86)\\Intel\\Intel(R) Processor Graphics"
+        ]
+    },
+    {
+        "software": [
+            "name: realtek high definition audio driver",
+            "location: C:\\Program Files\\Realtek\\Audio\\HDA"
+        ]
+    },
+    {
+        "software": [
+            "name: microsoft visual c++ 2013 redistributable (x86) - 12.0.30501",
+            "location: None"
+        ]
+    },
+    {
+        "software": [
+            "name: intel(r) sdk for opencl - cpu only runtime package",
+            "location: C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0"
+        ]
+    },
+    {
+        "software": [
+            "name: mega link downloader version 2.8.9",
+            "location: C:\\Program Files (x86)\\MEGA Link Downloader"
+        ]
+    }
+]
