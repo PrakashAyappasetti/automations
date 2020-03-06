@@ -62,10 +62,10 @@ def listOfBtechResultTitlesInJsonFormat():
 
 
 
-def getRes_a():
+def getRes_a(_value):
     # geturl = ""
     for row in soup.findAll("a", href=True):
-        if "B.Tech" in row.text:
+        if _value in row.text:
         	# print(row.text)
             h = row['href']
             geturl = f'{url}{h}'
