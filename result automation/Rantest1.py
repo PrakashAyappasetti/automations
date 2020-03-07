@@ -30,13 +30,13 @@ def getRes_a(value1, value2):
             print(f'{row.text} : {geturl}')
             if value2 in row.text:
                 return geturl
-        else :
-            return "result not found or has been deleted by Admin"
+            else :
+                return "result not found or has been deleted by Admin"
 
 
 
 
-l=getRes_a("B.Tech III Year I Semester (R15) ", "June/July 2019")
+l=getRes_a("B.Tech IV Year I Semester (R15)", "Nov/Dec 2019")
 print(l)
 
 rollno = '163G1A0505'
