@@ -5,6 +5,7 @@ import json
 import httplib2
 import urllib.request
 from selenium import webdriver
+import argparse
 
 url = 'https://jntuaresults.ac.in/'
 
@@ -19,7 +20,6 @@ soup = BeautifulSoup(src, 'lxml')
 table = soup.find('table', {'class': 'ui table segment'})
 
 
-l = ""
 def getRes_a(value1, value2):
     # geturl = ""
     for row in soup.findAll("a", href=True):
@@ -30,28 +30,36 @@ def getRes_a(value1, value2):
             print(f'{row.text} : {geturl}')
             if value2 in row.text:
                 return geturl
-            else :
+            else:
                 return "result not found or has been deleted by Admin"
 
 
 
 
-l=getRes_a("B.Tech IV Year I Semester (R15)", "Nov/Dec 2019")
-print(l)
+if __name__ == "__main__":
+    p = argparse.ArgumentParser()
+    p.add_argument('val1', help='val 1')
+    p.add_argument('val2', help='val 2')
+    args = p.parse_args()
 
-rollno = '163G1A0505'
-browser = webdriver.Chrome()
-# browser = webdriver.PhantomJS()
-print(l)
-browser.get(l)
-field = browser.find_element_by_xpath(
+    l = getRes_a(args.val1, args.val2)
+    print(l)
+
+    rollno = '163G1A0505'
+    browser = webdriver.Chrome()
+    print(l)
+    browser.get(l)
+    field = browser.find_element_by_xpath(
         '/html/body/div/div[1]/div/div/center/table/tbody/tr/th/center/input[1]')
-btn = browser.find_element_by_xpath(
+    btn = browser.find_element_by_xpath(
         '/html/body/div/div[1]/div/div/center/table/tbody/tr/th/center/input[2]')
-field.send_keys(rollno)
-btn.click()
-print('btn clicked')
-    # pr_btn = browser.find_element_by_xpath('/html/body/div/div[1]/div/div/center/div[1]/table/tbody/tr[5]/th/input')
-    # pr_btn.click()
-    # print(browser.title)
-    # browser.stop_client()
+    field.send_keys(rollno)
+    btn.click()
+
+
+
+
+'''
+    usage : python Rantest1.py "B.Tech IV Year I Semester (R15)" "Nov/Dec 2019"
+    
+'''
