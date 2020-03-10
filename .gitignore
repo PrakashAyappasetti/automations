@@ -6,3 +6,5 @@
 /*/*/build/*
 /*/*/dist/*
 create project/flutter projectInitializer/flutterproject.spec
+/LoginAutomation/*
+LoginAutomation/Loginer.py

@@ -69,7 +69,9 @@ def getRes_a(_value):
         	# print(row.text)
             h = row['href']
             geturl = f'{url}{h}'
-            print(f'{row.text} : {geturl}')
+            # print(f'{row.text} : {geturl}')
+            if "(R15)" in row.text:
+                print(row.text)
     # return geturl
 
 # B.Tech III Year I Semester (R15) Regular & Supplementary Examinations, Nov/Dec 2019
@@ -78,7 +80,7 @@ def getRes_a(_value):
 # reg = '(R15)'
 
 
-print(getRes_a())
+print(getRes_a("B.Tech"))
 
 # lastResult()
 
